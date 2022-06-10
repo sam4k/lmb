@@ -1,3 +1,11 @@
+/*
+ * Author : sam4k
+ * Contact: sam4k[at]protonmail[dot]com
+ * Website: https://www.sam4k.com/
+ *
+ * Module:
+ *   lmb_driver.h
+*/
 #pragma once
 
 #ifndef __LMB_DRIVER_H__

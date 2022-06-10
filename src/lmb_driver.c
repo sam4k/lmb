@@ -1,13 +1,11 @@
-/***************************************************************************//**
-*  \file       lmb_driver.c
-*
-*  \details    Linux Misc Driver Boilerplate
-*
-*  \author     sam4k
-*
-*  \Tested with kernel 5.3.0
-*
-*******************************************************************************/
+/*
+ * Author : sam4k
+ * Contact: sam4k[at]protonmail[dot]com
+ * Website: https://www.sam4k.com/
+ *
+ * Module:
+ *   lmb_driver.c
+*/
 #include "lmb_driver.h"
 #include <linux/miscdevice.h>
 #include <linux/fs.h>
