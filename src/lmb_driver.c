@@ -87,18 +87,18 @@ static int __init misc_init(void)
  
     error = misc_register(&misc_device);
     if (error) {
-        pr_err("misc_register failed!!!\n");
+        pr_err("[LMB] misc_register failed!!!\n");
         return error;
     }
  
-    pr_info("misc_register init done!!!\n");
+    pr_info("[LMB] misc_register init done!!!\n");
     return 0;
 }
  
 static void __exit misc_exit(void)
 {
     misc_deregister(&misc_device);
-    pr_info("misc_register exit done!!!\n");
+    pr_info("[LMB] misc_register exit done!!!\n");
 }
  
 module_init(misc_init)
