@@ -20,4 +20,11 @@ $ sudo insmod lmb.ko
 
 You should then be able to see `/dev/lmb_driver` if everything worked correctly; check `dmesg` and look for the `[LMB]` prefix for logging information. Note the device will be r/w for root only usually.
 
+### Tests
+To build the tests, just run:
+
+``` sh
+make test
+```
+
 
